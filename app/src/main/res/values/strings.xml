@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EazyOrder</string>
+    <string name="login">Login Here</string>
+    <string name="signup">SignUp Here</string>
 </resources>
