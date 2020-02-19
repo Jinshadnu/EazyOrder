@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    //text size
     <dimen name="textsize_10">10dp</dimen>
     <dimen name="textsize_15">15dp</dimen>
     <dimen name="textsize_20">20dp</dimen>
     <dimen name="textsize_25">25dp</dimen>
+    <dimen name="textsize_30">25dp</dimen>
+    <dimen name="textsize_35">25dp</dimen>
+    <dimen name="textsize_40">25dp</dimen>
+    <dimen name="textsize_45">25dp</dimen>
+    <dimen name="textsize_50">25dp</dimen>
+
+    //layout_width
+    <dimen name="layout_width10">10dp</dimen>
+    <dimen name="layout_width15">15dp</dimen>
+    <dimen name="layout_width20">20dp</dimen>
+    <dimen name="layout_width25">25dp</dimen>
+    <dimen name="layout_width30">30dp</dimen>
+    <dimen name="layout_width35">35dp</dimen>
+    <dimen name="layout_width40">40dp</dimen>
+    <dimen name="layout_width45">45dp</dimen>
+
+
+
 
 </resources>
