@@ -7,17 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-public Button button_register;
+public class Otp extends AppCompatActivity {
+public Button button_verifyOtp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        button_register=(Button)findViewById(R.id.button_register);
-        button_register.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_otp);
+        button_verifyOtp=(Button)findViewById(R.id.buttonOtp);
+        button_verifyOtp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),Register.class);
+                Intent intent=new Intent(getApplicationContext(),Home.class);
                 startActivity(intent);
             }
         });

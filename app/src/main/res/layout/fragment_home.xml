@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F9"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<RelativeLayout
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:background="@color/bgBottomNavigation"
+    android:layout_height="70dp">
+
+    <EditText
+        android:id="@+id/edit_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:paddingLeft="@dimen/layout_width20"
+        android:layout_centerVertical="true"
+        android:hint="Search Medicine Here"
+        android:background="@drawable/edittext_search"
+        android:layout_marginLeft="@dimen/layout_width15"
+        android:layout_marginRight="@dimen/layout_width15"/>
+
+</RelativeLayout>
+    <ScrollView
+        android:layout_below="@id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/layout_width15"
+                android:fitsSystemWindows="true"
+                android:id="@+id/imageSlider"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
